@@ -6,7 +6,7 @@ RUN export TERM=dumb ; export DEBIAN_FRONTEND=noninteractive ; apt-get update &&
     git \
     gnupg2 \
     imagemagick \
-    openjdk-11-jdk=11.0.16+8-0ubuntu1~22.04 \
+    openjdk-17-jdk=17.0.4+8-1~22.04 \
     curl less vim wget rsync \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
